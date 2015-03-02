@@ -1,0 +1,12 @@
+Source: ros-indigo-kobuki-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-catkin, ros-indigo-gazebo-plugins, ros-indigo-gazebo-ros, ros-indigo-geometry-msgs, ros-indigo-kobuki-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: http://ros.org/wiki/kobuki_gazebo_plugins
+Standards-Version: 3.9.2
+
+Package: ros-indigo-kobuki-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-gazebo-plugins, ros-indigo-gazebo-ros, ros-indigo-geometry-msgs, ros-indigo-kobuki-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Description: Kobuki-specific ROS plugins for Gazebo

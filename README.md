@@ -1,3 +1,32 @@
+## kobuki_desktop (kinetic) - 0.5.0-0
+
+The packages in the `kobuki_desktop` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic kobuki_desktop` on `Wed, 10 Aug 2016 22:02:42 -0000`
+
+These packages were released:
+- `kobuki_dashboard`
+- `kobuki_desktop`
+- `kobuki_gazebo`
+- `kobuki_gazebo_plugins`
+- `kobuki_qtestsuite`
+- `kobuki_rviz_launchers`
+
+Version of package(s) in repository `kobuki_desktop`:
+
+- upstream repository: https://github.com/yujinrobot/kobuki_desktop.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.4.2-0`
+- new version: `0.5.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.35`
+
+
 ## kobuki_desktop (kinetic) - 0.4.2-0
 
 The packages in the `kobuki_desktop` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic kobuki_desktop` on `Wed, 10 Aug 2016 21:55:51 -0000`

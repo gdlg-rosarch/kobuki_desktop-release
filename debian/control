@@ -1,0 +1,12 @@
+Source: ros-kinetic-kobuki-qtestsuite
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <stonier@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), pyqt5-dev-tools, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-kobuki-testsuite, ros-kinetic-nav-msgs, ros-kinetic-qt-gui-py-common, ros-kinetic-rospy, ros-kinetic-rqt-gui, ros-kinetic-rqt-gui-py, ros-kinetic-rqt-plot, ros-kinetic-rqt-py-common
+Homepage: http://ros.org/wiki/kobuki_qtestsuite
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-kobuki-qtestsuite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pyqt5-dev-tools, ros-kinetic-geometry-msgs, ros-kinetic-kobuki-testsuite, ros-kinetic-nav-msgs, ros-kinetic-qt-gui-py-common, ros-kinetic-rospy, ros-kinetic-rqt-gui, ros-kinetic-rqt-gui-py, ros-kinetic-rqt-plot, ros-kinetic-rqt-py-common
+Description: An rqt plugin that provides a graphical, interactive testsuite for Kobuki.
